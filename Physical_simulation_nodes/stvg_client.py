@@ -56,7 +56,7 @@ class stvg_client(Node):
 def main(args = None):
     rclpy.init(args=args)
     node = stvg_client()
-    rclpy.spin(node)
+    rclpy.spin(node) 
     rclpy.shutdown()
         
 if __name__== "__main__":
