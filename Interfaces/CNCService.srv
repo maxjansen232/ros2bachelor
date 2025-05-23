@@ -1,0 +1,5 @@
+#client request
+string gcode
+---
+#server response
+bool success
